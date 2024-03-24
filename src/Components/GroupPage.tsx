@@ -13,6 +13,18 @@ export default function GroupPage() {
         <h2 className="text-2xl">
            Môn học: {groups[chooseCourse].course}
         </h2>
+        <div className="grid grid-cols-2 mt-6 p-6">
+          {groups[chooseCourse].member.map( mem =>
+            (
+            <div className="p-6 text-center shadow-md m-4 rounded-sm lg:m-10 ">
+              <img src={mem.img} alt="" />
+              <h3 className="mt-4 text-xl font-normal">{mem.name}</h3>
+              <h3 className="text-lg font-light">{mem.id}</h3>
+              <h3 className="text-lg font-light">{mem.role}</h3>
+            </div>
+            )
+          )}
+        </div>
       </div>
     </div>
   )
