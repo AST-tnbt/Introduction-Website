@@ -1,6 +1,6 @@
 export default function ContractPage() {
   return (
-    <div className="bg-[#f0f0f0] w-full  text-[#333]">
+    <div className="bg-[#f0f0f0] w-full  text-[#333] z-10">
       <h1 className="text-4xl pt-36 font-medium text-center">Hợp đồng thành lập nhóm</h1>
       <div className=" m-auto max-w-screen-sm p-4 grid grid-cols-1 lg:grid-cols-2 lg:max-w-screen-lg">
         <div className="m-4">

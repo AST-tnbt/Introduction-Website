@@ -5,7 +5,7 @@ export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false);
   return (
     <>
-        <div className="w-screen opacity-90 bg-white fixed flex justify-between md:justify-around lg:justify-around items-center p-4 font-robo shadow-lg select-none">
+        <div className="w-screen z-20 opacity-90 bg-white fixed flex justify-between md:justify-around lg:justify-around items-center p-4 font-robo shadow-lg select-none">
             <div>
                 <Link to="/" className="h-20 flex items-center space-x-6"> 
                     <img className="h-20" src={logo} />
