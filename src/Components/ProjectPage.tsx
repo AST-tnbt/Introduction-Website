@@ -14,7 +14,7 @@ export default function ProjectPage() {
         <h2 className="text-center text-3xl font-normal mt-4">{projects[chooseCourse].name}</h2>
         <h2 className="text-xl font-normal mt-4">Môn học: {projects[chooseCourse].course}</h2>
         <p className="text-lg font-normal mt-2">Đề tài: {projects[chooseCourse].topic}</p>
-        <a className="bg-black p-2 mt-4 block w-fit rounded-md text-white font-medium transition-colors hover:bg-[#f77a36] hover:text-[#333] " href={projects[chooseCourse].source} >Đi đến GitHub</a>
+        <a className="bg-black p-2 mt-4 block w-fit rounded-md text-white font-medium transition-colors hover:bg-[#f77a36] hover:text-[#333] " href={projects[chooseCourse].source} target="_blank" >Đi đến GitHub</a>
         <div className="bg-[#f77a36] h-2 mt-8"></div>
         <h2 className="text-xl mt-4">Demo - Hướng dẫn sử dụng</h2>
         <p className="text-lg mt-2">(Chưa cập nhật)</p>
