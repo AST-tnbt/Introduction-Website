@@ -19,6 +19,9 @@ export default function ProjectPage() {
         <h2 className="text-xl mt-4">Demo - Hướng dẫn sử dụng</h2>
         <p className="text-lg mt-2">(Chưa cập nhật)</p>
       </div>
+      <div className="bg-white fixed w-full h-full z-40 top-0 animate-fadeOut invisible items-center flex">
+        <h2 className="text-[#f77a36] outline-black m-auto text-6xl font-black animate-slide invisible">ĐỒ ÁN MÔN HỌC</h2>
+      </div>
     </div>
   )
 }

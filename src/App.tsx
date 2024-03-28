@@ -5,6 +5,7 @@ import ProjectPage from "./Components/ProjectPage";
 import ContractPage from "./Components/ContractPage";
 import PlanPage from "./Components/PlanPage";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 export default function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/contracts" element={<ContractPage />} />
         <Route path="/plans" element={<PlanPage />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
