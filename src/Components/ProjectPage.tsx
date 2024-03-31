@@ -4,7 +4,7 @@ import projects from "../data/Project";
 export default function ProjectPage() {
   const [chooseCourse, setChooseCourse] = useState(0);
   return (
-    <div className="bg-[#f0f0f0] h-screen  text-[#333] z-10">
+    <div className="bg-[#f0f0f0] h-screen p-4 text-[#333] z-10">
       <div className=" m-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg ">
         <ul className="flex space-x-4 pt-32 ">
             <li className={`cursor-pointer block text-xl font-medium transition-transform hover:-translate-y-1 ${chooseCourse == 0 ? "border-b-4 border-[#ff6b1e]" : ""}`} onClick={() => setChooseCourse(0)}>IS208</li>
@@ -19,8 +19,8 @@ export default function ProjectPage() {
         <h2 className="text-xl mt-4">Demo - Hướng dẫn sử dụng</h2>
         <p className="text-lg mt-2">(Chưa cập nhật)</p>
       </div>
-      <div className="bg-white fixed w-full h-full z-40 top-0 animate-fadeOut invisible items-center flex">
-        <h2 className="text-[#f77a36] outline-black m-auto text-6xl font-black animate-slide invisible">ĐỒ ÁN MÔN HỌC</h2>
+      <div className="bg-white fixed w-full h-full z-40 top-0 left-0 animate-fadeOut invisible items-center flex">
+        <h2 className="text-[#f77a36] outline-black m-auto text-6xl font-black animate-slide invisible text-center">ĐỒ ÁN MÔN HỌC</h2>
       </div>
     </div>
   )
