@@ -18,11 +18,11 @@ export default function PlanPage() {
         </ul>
         <h1 className="pt-4 text-center text-3xl font-medium">Biên cuộc bản họp</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 space-x-2 mt-8">
+      <div className="grid grid-cols-1 space-y-2 md:grid-cols-2 md:space-x-2 lg:grid-cols-4 lg:space-x-2 mt-8">
         {
           minutes.map(minute => 
             (
-              <div className="bg-[#f0f0f0] shadow-md rounded-md">
+              <div className="bg-[#f0f0f0] shadow-md rounded-md animate-fadeUp">
                 <Link to={`/plans/${minute.id}`} onClick = {() => scrollToTop()}>
                   <img src={documentIcon} alt="Document"  className="h-3/4 m-4"/>
                   <h2 className="text-center text-xl">{minute.name}</h2>
