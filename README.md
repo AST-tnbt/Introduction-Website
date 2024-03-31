@@ -1,1 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/61179a12-6624-482c-afc4-40095b229a90/deploy-status)](https://app.netlify.com/sites/twpintroduction/deploys)
+# Introduction-Website 
+This is the website introducing our group and our projects in the course of Information Technology Project Management and Java Programming.  
+Built by ReactJs, Vite, TailWindCss.  
+Click [HERE](https://twpintroduction.netlify.app/) to visit our website.
