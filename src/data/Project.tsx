@@ -10,9 +10,9 @@ const projects = [
     {
         course : "IS216 - Lập trình Java",
         name: "Phần mềm quản lý bệnh viện",
-        topic:  "Chưa cập nhật",
+        topic:  "Xây dựng một ứng dụng quản lý phòng khám, bao gồm các chức năng quản lý bệnh nhân, nhân sự, thuốc, viện phí kê toa thuốc,... ",
         introduction: "Chưa cập nhật",
-        source: "",
+        source: "https://github.com/AST-tnbt/Clinic_Management",
         demo:"Chưa cập nhật",
     }
 ];
