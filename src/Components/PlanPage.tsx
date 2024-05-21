@@ -1,14 +1,10 @@
 import { useState } from "react";
 import background from "../assets/background_planspage.jpg";
-import { Link } from "react-router-dom";
 import minutes from "../data/Documents";
 import documentIcon from "../assets/Document_image.jpg";
 
 export default function PlanPage() {
   const [chooseCourse, setChooseCourse] = useState(0);
-  function scrollToTop() {
-    window.scrollTo(0, 0);
-  }
   return (
     <div className="text-[#333] min-h-screen bg-cover z-10 p-4 font-robo" style={{backgroundImage : `url(${background})`}} >
       <div className="m-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg">
@@ -18,20 +14,16 @@ export default function PlanPage() {
         </ul>
         <h1 className="pt-4 text-center text-3xl font-medium">Biên cuộc bản họp</h1>
       </div>
-      <div className="grid grid-cols-1 space-y-2 md:grid-cols-2 md:space-x-2 lg:grid-cols-4 lg:space-x-2 mt-8">
+      <div className="m-auto h-1/4 w-1/4">
         {
-          minutes.map(minute => 
-            (
-              <div className="bg-[#f0f0f0] shadow-md rounded-md animate-fadeUp">
-                <Link to={`/plans/${minute.id}`} onClick = {() => scrollToTop()}>
-                  <img src={documentIcon} alt="Document"  className="h-3/4 m-4"/>
-                  <h2 className="text-center text-xl">{minute.name}</h2>
-                </Link>
-              </div>
-            ))
+          <div className="bg-[#f0f0f0] shadow-md rounded-md p-4 animate-fadeUp">
+            <a href={`${minutes[chooseCourse]}`} target="_blank" className="mt-auto">
+              <img src={documentIcon} alt="Document"  className="h-3/4 m-auto"/>
+              <p className="text-center text-xl mt-4">Biên bản họp nhóm</p> 
+            </a>
+          </div>
         }
       </div>
-      
     </div>
   )
 }
