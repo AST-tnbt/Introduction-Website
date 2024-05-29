@@ -5,6 +5,7 @@ import patient  from "../assets/patientManagement.png";
 import medicine  from "../assets/MedicineManagement.png";
 import room  from "../assets/RoomManagement.png";
 import fee  from "../assets/FeeManagement.png";
+import tool from "../assets/ToolManagement.png"
 
 export default {
     login,
@@ -13,5 +14,6 @@ export default {
     patient,
     medicine,
     room,
-    fee
+    fee,
+    tool
 };
