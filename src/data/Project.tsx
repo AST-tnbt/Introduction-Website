@@ -1,4 +1,5 @@
 import images from "./images";
+import videoDemo from "../assets/videoDemo.mp4";
 const projects = [
     {
         course : "IS208 - Quản lý dự án công nghệ thông tin",
@@ -15,7 +16,8 @@ const projects = [
         introduction: "Chưa cập nhật",
         source: "https://github.com/AST-tnbt/Clinic_Management",
         demo:"Chưa cập nhật",
-        image : [images.login, images.dashboard, images.employee, images.patient, images.medicine, images.room, images.fee],
+        image: [images.login, images.dashboard, images.employee, images.patient, images.medicine, images.room, images.fee],
+        video: videoDemo
     }
 ];
 

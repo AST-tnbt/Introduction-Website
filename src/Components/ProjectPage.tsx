@@ -1,5 +1,7 @@
 import { useState } from "react"
 import projects from "../data/Project";
+import "video-react/dist/video-react.css";
+import { Player, ControlBar, PlayToggle } from "video-react";
 
 export default function ProjectPage() {
   const [chooseCourse, setChooseCourse] = useState(0);
@@ -17,12 +19,18 @@ export default function ProjectPage() {
         <a className="bg-black p-2 mt-4 block w-fit rounded-md text-white font-medium transition-colors hover:bg-[#f77a36] hover:text-[#333] " href={projects[chooseCourse].source} target="_blank" >Đi đến GitHub</a>
         <div className="bg-[#f77a36] h-2 mt-8"></div>
         <h2 className="text-xl mt-4">Demo - Hướng dẫn sử dụng</h2>
-        <p className="text-lg mt-2">Dưới đây là một số hình ảnh về giao diện của ứng dụng:</p>
-        <div className="">
+        <p className="text-lg mt-2">Dưới đây là một số hình ảnh về giao diện và video demo chức năng chính của ứng dụng:</p>
+        <div className="mb-6">
           {projects[chooseCourse].image?.map((img, index) => (
             <img key={index} src={img} className=" border-[2px] border-slate-800 mt-6"/>
-          ))}   
+          ))}
         </div>
+        {projects[chooseCourse].video ? 
+        ( <Player autoPlay src={projects[chooseCourse].video} >
+            <ControlBar autoHide={true} disableDefaultControls={false}>
+              <PlayToggle />
+            </ControlBar>
+        </Player>) : null}
       </div>
       <div className="bg-white fixed w-full h-full z-40 top-0 left-0 animate-fadeOut invisible items-center flex">
         <h2 className="text-[#f77a36] outline-black m-auto text-6xl font-black animate-slide invisible text-center">ĐỒ ÁN MÔN HỌC</h2>
