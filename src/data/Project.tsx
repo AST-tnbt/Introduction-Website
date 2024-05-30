@@ -17,6 +17,8 @@ const projects = [
         source: "https://github.com/AST-tnbt/Clinic_Management",
         demo:"Chưa cập nhật",
         image: [images.login, images.dashboard, images.employee, images.patient, images.medicine, images.room, images.tool, images.fee],
+        design: [images.actors, images.functions, images.usecase, images.erd, images.pdm],
+        plan: images.plan,
         video: videoDemo
     }
 ];

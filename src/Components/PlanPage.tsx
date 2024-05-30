@@ -2,6 +2,8 @@ import { useState } from "react";
 import background from "../assets/background_planspage.jpg";
 import minutes from "../data/Documents";
 import documentIcon from "../assets/Document_image.jpg";
+import images from "../data/images";
+import projects from "../data/Project";
 
 export default function PlanPage() {
   const [chooseCourse, setChooseCourse] = useState(0);
@@ -16,14 +18,24 @@ export default function PlanPage() {
       </div>
       <div className="m-auto h-1/4 w-1/4">
         {
-          <div className="bg-[#f0f0f0] shadow-md rounded-md p-4 animate-fadeUp">
-            <a href={`${minutes[chooseCourse]}`} target="_blank" className="mt-auto">
-              <img src={documentIcon} alt="Document"  className="h-3/4 m-auto"/>
-              <p className="text-center text-xl mt-4">Biên bản họp nhóm</p> 
-            </a>
+          <div>
+            <div className="bg-[#f0f0f0] shadow-md rounded-md p-4 animate-fadeUp">
+              <a href={`${minutes[chooseCourse]}`} target="_blank" className="mt-auto">
+                <img src={documentIcon} alt="Document"  className="h-3/4 m-auto"/>
+                <p className="text-center text-xl mt-4">Biên bản họp nhóm</p> 
+              </a>
+            </div>
           </div>
         }
-      </div>
+      </div >
+        {
+          projects[chooseCourse].plan ? (
+            <div className="mt-6">
+              <h1 className="pt-4 text-center text-3xl font-medium mb-4">Quy trình quản lý</h1>
+              <img src={projects[chooseCourse].plan} alt="" className="m-auto" />
+            </div>
+          ) : null
+        }
     </div>
   )
 }
