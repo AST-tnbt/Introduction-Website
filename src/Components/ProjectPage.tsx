@@ -36,9 +36,7 @@ export default function ProjectPage() {
         {
           projects[chooseCourse].design ? (
             projects[chooseCourse].design.map((img, index) => (
-              <div className="">
-                <img src={img} key={index} alt="" className="border-[2px] border-slate-800 mt-6 m-auto" />
-              </div>
+              <img src={img} key={index} alt="" className="border-[2px] border-slate-800 mt-6 m-auto" />
             )) 
           ) : null
         }
