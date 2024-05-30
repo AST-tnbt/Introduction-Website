@@ -2,7 +2,6 @@ import { useState } from "react";
 import background from "../assets/background_planspage.jpg";
 import minutes from "../data/Documents";
 import documentIcon from "../assets/Document_image.jpg";
-import images from "../data/images";
 import projects from "../data/Project";
 
 export default function PlanPage() {
