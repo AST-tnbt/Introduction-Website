@@ -11,7 +11,7 @@ import actors from "../assets/DSActor.jpg";
 import functions from "../assets/ChucNang.jpg";
 import usecase from "../assets/UsecaseDiagram.jpg";
 import erd from "../assets/ERD.jpg";
-import pdm from "../assets/pdm.jpg"
+import pdm from "../assets/pdm.jpg";
 export default {
     login,
     dashboard,
