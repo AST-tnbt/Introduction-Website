@@ -6,12 +6,16 @@ import medicine  from "../assets/MedicineManagement.png";
 import room  from "../assets/RoomManagement.png";
 import fee  from "../assets/FeeManagement.png";
 import tool from "../assets/ToolManagement.png";
-import plan from "../assets/QuyTrinhLamViec.jpg";
-import actors from "../assets/DSActor.jpg";
-import functions from "../assets/ChucNang.jpg";
-import usecase from "../assets/UsecaseDiagram.jpg";
-import erd from "../assets/ERD.jpg";
-import pdm from "../assets/pdm.jpg"
+import loginGame from "../assets/logingame.png";
+import home from "../assets/home.png";
+import map from "../assets/map.png";
+import bet from "../assets/bet.png";
+import minigame from "../assets/minigame.png";
+import play from "../assets/play.png";
+import setting from "../assets/setting.png";
+import shop from "../assets/shop.png";
+
+
 export default {
     login,
     dashboard,
@@ -21,10 +25,12 @@ export default {
     room,
     fee,
     tool,
-    plan,
-    actors,
-    functions,
-    usecase,
-    erd,
-    pdm
+    loginGame,
+    home,
+    map,
+    bet,
+    minigame,
+    play,
+    setting,
+    shop,
 };

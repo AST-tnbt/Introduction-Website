@@ -37,7 +37,7 @@ export default function ContractPage() {
           </ul>
         </div>
         <div className="m-4 animate-fadeUp">
-          <h2 className="text-2xl mt-8 font-normal">5. Tiêu Chí Đánh Giá Thành Viên Cuối Đồ Án và Cuối Môn Học</h2>
+          <h2 className="text-2xl mt-8 font-normal">5. Tiêu chí đánh giá thành viên cuối đồ án và cuối môn học</h2>
           <ul className="mt-4 space-y-2 text-lg">
             <li>Dựa trên hiệu suất làm việc của mỗi thành viên trong nhóm.</li>
             <li>Bao gồm đánh giá từ cả thành viên trong nhóm và giáo viên hướng dẫn.</li>

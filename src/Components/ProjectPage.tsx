@@ -20,26 +20,17 @@ export default function ProjectPage() {
         <div className="bg-[#f77a36] h-2 mt-8"></div>
         <h2 className="text-2xl mt-4 font-medium">Demo - Hướng dẫn sử dụng</h2>
         <p className="text-lg mt-2">Dưới đây là một số hình ảnh về giao diện và video demo chức năng chính của ứng dụng:</p>
-        <div className="mb-6">
-          {projects[chooseCourse].image?.map((img, index) => (
-            <img key={index} src={img} className=" border-[2px] border-slate-800 mt-6 m-auto"/>
-          ))}
-        </div>
         {projects[chooseCourse].video ? 
         ( <Player autoPlay src={projects[chooseCourse].video} >
             <ControlBar autoHide={true} disableDefaultControls={false}>
               <PlayToggle />
             </ControlBar>
         </Player>) : null}
-        <div className="bg-[#f77a36] h-2 mt-8"></div>
-        <h2 className="text-2xl mt-4 font-medium">Phân tích, thiết kế dữ liệu</h2>
-        {
-          projects[chooseCourse].design ? (
-            projects[chooseCourse].design.map((img, index) => (
-              <img src={img} key={index} alt="" className="border-[2px] border-slate-800 mt-6 m-auto" />
-            )) 
-          ) : null
-        }
+        <div className="mb-6">
+          {projects[chooseCourse].image?.map((img, index) => (
+            <img key={index} src={img} className=" border-[2px] border-slate-800 mt-6 m-auto"/>
+          ))}
+        </div>
       </div>
       <div className="bg-white fixed w-full h-full z-40 top-0 left-0 animate-fadeOut invisible items-center flex">
         <h2 className="text-[#f77a36] outline-black m-auto text-6xl font-black animate-slide invisible text-center">ĐỒ ÁN MÔN HỌC</h2>
