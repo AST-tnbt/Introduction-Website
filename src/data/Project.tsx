@@ -7,7 +7,8 @@ const projects = [
         topic:  "Xây dựng một game đua xe trên máy tính cá nhân, bao gồm các chức năng đăng nhập, tiền và shop vật phẩm trong game, đặt cược đua xe để lấy tiền thưởng, shop bán vật phẩm. Có ít nhất 2 mẫu đường đua khác nhau (mỗi mẫu sẽ có 3 tùy chọn ngắn, dài, trung bình), có các rào cản trên đường đua. Ít nhất 1 minigames.",
         introduction: "Chưa cập nhật",
         source: "https://github.com/AST-tnbt/IS208.O21_GameDuaXe",
-        image: [images.loginGame, images.home, images.map, images.bet, images.play, images.shop, images.setting]
+        image: [images.loginGame, images.home, images.map, images.bet, images.play, images.shop, images.setting],
+        plan: "https://drive.google.com/drive/folders/1Z2_KKgoJcEnGjPwo5OP6lk7jss3lsPC9?usp=sharing"
     },
     {
         course : "IS216 - Lập trình Java",
@@ -16,7 +17,8 @@ const projects = [
         introduction: "Chưa cập nhật",
         source: "https://github.com/AST-tnbt/Clinic_Management",
         image: [images.login, images.dashboard, images.employee, images.patient, images.medicine, images.room, images.tool, images.fee],
-        video: videoDemo
+        video: videoDemo,
+        plan: "https://drive.google.com/drive/folders/1GN79qPQdEgr2uqUXt-He6Rrx9oMOPnhS?usp=sharing"
     }
 ];
 
