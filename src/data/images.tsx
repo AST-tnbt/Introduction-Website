@@ -14,8 +14,6 @@ import minigame from "../assets/minigame.png";
 import play from "../assets/play.png";
 import setting from "../assets/setting.png";
 import shop from "../assets/shop.png";
-
-
 export default {
     login,
     dashboard,
