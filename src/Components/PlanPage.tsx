@@ -30,7 +30,6 @@ export default function PlanPage() {
         {
           projects[chooseCourse].plan ? (
             <div className="mt-6">
-              <h1 className="pt-4 text-center text-3xl font-medium mb-4">Quy trình quản lý</h1>
               <img src={projects[chooseCourse].plan} alt="" className="m-auto" />
             </div>
           ) : null
