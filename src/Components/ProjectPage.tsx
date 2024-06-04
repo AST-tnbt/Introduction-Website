@@ -19,7 +19,7 @@ export default function ProjectPage() {
         <a className="bg-black p-2 mt-4 block w-fit rounded-md text-white font-medium transition-colors hover:bg-[#f77a36] hover:text-[#333] " href={projects[chooseCourse].source} target="_blank" >Đi đến GitHub</a>
         <div className="bg-[#f77a36] h-2 mt-8"></div>
         <h2 className="text-2xl mt-4 font-medium">Demo - Hướng dẫn sử dụng</h2>
-        <p className="text-lg mt-2">Dưới đây là một số hình ảnh về giao diện và video demo chức năng chính của ứng dụng:</p>
+        <p className="text-lg mt-2">Dưới đây là một số hình ảnh về giao diện của ứng dụng:</p>
         {projects[chooseCourse].video ? 
         ( <Player autoPlay src={projects[chooseCourse].video} >
             <ControlBar autoHide={true} disableDefaultControls={false}>
