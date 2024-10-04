@@ -1,6 +1,37 @@
 import Avatars from "./Avatars";
 
 const groups = [
+    {
+        course : "IS207 - Phát triển ứng dụng web",
+        member : [
+            {
+                name: "Nguyễn Chí Vĩ",
+                img: `${Avatars.vi}`,
+                id: "22521656",
+                role: "Trưởng nhóm"
+            },
+            {
+                name: "Võ Đức Vĩnh", 
+                img: `${Avatars.vinh}`,
+                id: "22521684",
+                role: "Thành viên"
+            },
+            {
+                name: "Dương Văn Súa",
+                img: `${Avatars.sua}`,
+                id: "22521267",
+                role: "Thành viên" 
+                
+            },
+            {
+                name: "Trịnh Nguyên Bảo Tín",
+                img: `${Avatars.tin}`,
+                id: "22521482",
+                role: "Thành viên" 
+                
+            }
+        ]
+    },
     { 
         course : "IS208 - Quản lý dự án công nghệ thông tin",
         member : [
@@ -15,7 +46,7 @@ const groups = [
                 img: `${Avatars.sua}`,
                 id: "22521267",
                 role: "Thành viên" 
-
+    
             },
             {
                 name: "Nguyễn Chí Vĩ",
@@ -28,7 +59,7 @@ const groups = [
                 img: `${Avatars.tin}`,
                 id: "22521482",
                 role: "Thành viên" 
-
+    
             }
         ]
     },
@@ -53,7 +84,7 @@ const groups = [
                 img: `${Avatars.tin}`,
                 id: "22521482",
                 role: "Thành viên" 
-
+    
             }
         ]
     }

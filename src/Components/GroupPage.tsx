@@ -7,8 +7,9 @@ export default function GroupPage() {
     <div className="w-full bg-[#f0f0f0] z-10 p-4">
       <div className="text-[#333] max-w-screen-sm flex flex-col m-auto lg:max-w-screen-lg md:max-w-screen-md select-none">
         <ul className="flex space-x-4 pt-32 ">
-          <li className={`cursor-pointer block text-xl font-medium transition-transform hover:-translate-y-1 ${chooseCourse == 0 ? "border-b-4 border-[#ff6b1e]" : ""}`} onClick={() => setChooseCourse(0)}>IS208</li>
-          <li className={`cursor-pointer block text-xl font-medium transition-transform hover:-translate-y-1 ${chooseCourse == 0 ? "" : "border-b-4 border-[#ff6b1e]"}`} onClick={() => setChooseCourse(1)}>IS216</li>
+          <li className={`cursor-pointer block text-xl font-medium transition-transform hover:-translate-y-1 ${chooseCourse == 0 ? "border-b-4 border-[#ff6b1e]" : ""}`} onClick={() => setChooseCourse(0)}>IS207</li>
+          <li className={`cursor-pointer block text-xl font-medium transition-transform hover:-translate-y-1 ${chooseCourse == 1 ? "border-b-4 border-[#ff6b1e]" : ""}`} onClick={() => setChooseCourse(1)}>IS208</li>
+          <li className={`cursor-pointer block text-xl font-medium transition-transform hover:-translate-y-1 ${chooseCourse == 2 ? "border-b-4 border-[#ff6b1e]" : ""}`} onClick={() => setChooseCourse(2)}>IS216</li>
         </ul>
         <div className="mt-8">
           <h2 className="text-3xl">
