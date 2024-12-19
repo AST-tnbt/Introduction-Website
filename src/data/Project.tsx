@@ -4,9 +4,9 @@ const projects = [
     {
         course : "IS207 - Phát triển ứng dụng web",
         name: "The Wolf Pack Computer Shop Website",
-        topic:  "Đang cập nhật",
+        topic:  "Thị trường thương mại điện tử đang phát triển mạnh mẽ, đặc biệt trong lĩnh vực công nghệ. Nhu cầu mua laptop trực tuyến tăng cao, phù hợp với xu hướng mua sắm hiện đại. Thiết kế và phát triển một website thương mại điện tử chuyên bán laptop. Đảm bảo giao diện hiện đại, thân thiện với người dùng. Hỗ trợ các tính năng tìm kiếm nâng cao, quản lý giỏ hàng, thanh toán, và quản trị dữ liệu.",
         source: "https://github.com/nguyenchivi001/IS207_P13_TWPComputerShop",
-        image: [],
+        image: [images.homeweb, images.products, images.product_deltail, images.cart, images.admin, images.admin2, images.admin3, images.admin4, images.admin5, images.admin6, images.admin7],
         // plan: "https://drive.google.com/drive/folders/114iTu4OOCb440hke5b4PBgU4CiCU4yVm?usp=sharing"
     },
     {
